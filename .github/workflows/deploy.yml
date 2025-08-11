@@ -36,7 +36,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Move index.html to root
-        run: cp pages/index.html frontend/index.html
+        run: cp frontend/pages/index.html frontend/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
