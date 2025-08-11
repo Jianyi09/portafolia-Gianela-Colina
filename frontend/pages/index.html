@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../assets/styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Patua+One&display=swap" rel="stylesheet" />
+  <title>Portafolio</title>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Jianyi's Space.</h1>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="menu-item activo"><a href="index.html">About me</a></li>
+        <li class="menu-item"><a href="formApplicant.html">Let's work together</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+
+    <section class="left-content">
+
+      <section class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="../assets/img/avatar.jpg" width="400" height="400" alt="Foto de perfil tipo avatar" />
+          <figcaption class="text">Avatar</figcaption>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 2</div>
+          <img src="../assets/img/photo_4942995797482516100_y.jpg" width="450" height="450" alt="Foto de Gianela Colina" />
+          <figcaption class="text">Gianela Colina</figcaption>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </section>
+
+      <section class="contacts">
+        <ul>
+          <li> 
+            <a href="https://www.linkedin.com/in/gianela-colina-b30965344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><img src="../assets/icons/linkedin.png" alt="linkedin icon" title="LinkedIn" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Jianyi09" target="_blank"><img src="../assets/icons/github (2).png" alt="github icon" title="GitHub" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/im_jianyi?igsh=MWI3Ym9obWhyeGNxag==" target="_blank"><img src="../assets/icons/instagram (2).png" alt="instagram icon" title="instagram" /></a>
+          </li>
+        </ul>
+      </section>
+
+    </section>
+
+    <section class="right-content">
+      <div class="contenedor-dinamico">
+        <div id="contenido-1" class="contenido activo">
+          <h2>Welcome to my web portfolio!</h2>
+          <h3>Introduction</h3>
+          <p>Mi nombre es Gianela Colina, tengo 21 años de edad y soy de Venezuela. Mi nickname Jianyi (见一) viene del mandarín tradicional, el cual tiene los caracteres de "saludable y alegre" y "establecerse y tener éxito", que es lo que más espero en mi vida; ser feliz y saludable mientras tengo éxito haciendo lo que me gusta.</p>
+          <p>Actualmente soy estudiante de ingeniería informática. Siempre he tenido cierto interés en el arte y la tecnología, y la programación web me parece una grandiosa forma de combinar ambos mundos.</p>
+        </div>
+
+        <div id="contenido-2" class="contenido">
+          <h2>Habilidades</h2>
+          
+          <h3>Coding</h3>
+
+          <div>
+          <p>HTML</p>
+          <div class="bar-container">
+            <div class="skills html" id="bar-html">0%</div>
+          </div>
+
+          <p>CSS</p>
+          <div class="bar-container">
+            <div class="skills css" id="bar-css">0%</div>
+          </div>
+
+          <p>JavaScript</p>
+          <div class="bar-container">
+            <div class="skills js" id="bar-js">0%</div>
+          </div>
+
+          <h3>Inglés (nivel B2)</h3>
+
+          <div class="contenedor-medio">
+
+            <div class="mini-container">
+              <p>Writting</p>
+              <div class="bar-container2">
+                <div class="skills" id="bar-writting">0%</div>
+              </div>
+              <p>Listening</p>
+              <div class="bar-container2">
+                <div class="skills" id="bar-listening">0%</div>
+              </div>
+            </div>
+
+            <div class="mini-container">
+              <p>Speaking</p>
+              <div class="bar-container2">
+                <div class="skills" id="bar-speaking">0%</div>
+              </div>
+              <p>Reading</p>
+              <div class="bar-container2">
+                <div class="skills" id="bar-reading">0%</div>
+              </div>
+            </div>
+
+          </div>
+
+          <h3>Herramientas de diseño</h3>
+          <div class="otro-contenedor">
+            <img src="../assets/icons/canva.png">
+            <img src="../assets/icons/photoshop.png">
+            <img src="../assets/icons/illustrator.png">
+            <img src="../assets/icons/medibang.png">
+          </div>
+
+    </div>
+    </section>
+
+    <div class="side-menu">
+      <a href="#" onclick="mostrarContenido(1)">1</a>
+      <a href="#" onclick="mostrarContenido(2)">2</a>
+    </div>
+
+  </main>
+  <script src="../scripts/indexScripts.js"></script>
+</body>
+</html>
