@@ -1,6 +1,7 @@
 body {
   background-image: url('../img/fondo5.png');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #808080;
   margin: 0;
   padding: 0;
